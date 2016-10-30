@@ -25,6 +25,9 @@ img {
     background: url('../img/girlincar.jpg') center center no-repeat;
     background-size: cover;
 }
+#about .container{
+    padding-bottom:1.5rem;
+}
 
 .about-text{
     background: rgba(0,0,0,0.8);

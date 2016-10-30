@@ -86,7 +86,21 @@ body {
     padding: 1.875rem;
 }
 
-
+#contact{
+    padding:2rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+form button{ 
+    padding-top:2rem;
+}
+textarea{
+    padding-bottom:1rem;
+}
+#contact .form-text{
+    
+}
  * Header
  */
 
@@ -149,11 +163,14 @@ body {
  * Footer
  */
 
-.mastfoot {
-  color: rgba(255,255,255,.5);
+footer{
+    padding-top:1rem;
 }
 
-
+.footer-text{
+    background: black;
+    color: black;
+}
 /*
  * Affix and center
  */
@@ -204,4 +221,8 @@ body {
 #services .card-image {
     width: 100%;
     padding: 0 0rem;
+}
+
+#about .container {
+    padding-bottom:1rem;
 }

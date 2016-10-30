@@ -71,6 +71,9 @@ body {
     color: white;
     text-shadow: 0 0 10px rgba(0,0,0, 0.5);
 }
+.card-group{
+    padding-bottom:1rem;
+}
 
 #about{
     background: url('../img/fashion-1478810_1280.jpg') center center no-repeat;
@@ -91,6 +94,10 @@ body {
     background: white;
     color: black;
     text-decoration: none;
+}
+form{
+    padding-bottom:1rem;
+    padding-top:1rem;
 }
 form button{ 
     padding-top:2rem;
@@ -165,11 +172,11 @@ textarea{
 
 footer{
     padding-top:1rem;
+    padding-bottom:1rem;
 }
 
-.footer-text{
-    background: black;
-    color: black;
+.list-group-item{
+    background-color:#232121;
 }
 /*
  * Affix and center
